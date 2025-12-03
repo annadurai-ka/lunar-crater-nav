@@ -1,0 +1,32 @@
+# ROS / colcon build
+build/
+install/
+log/
+*.pyc
+__pycache__/
+
+# ROS2 local config
+.ros/
+.rosinstall
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Python envs
+venv/
+.env
+pip-wheel-metadata/
+
+# VSCode test coverage
+.coverage
+
+# Large data (keep out of git; use git-lfs if needed)
+*.bag
+*.bag.active
+*.bag.index
+*.dem
+*.tif
+data/
