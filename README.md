@@ -146,11 +146,3 @@ Modify `map_craters.csv` as needed per simulation.
 * Colcon build tools
 
 ---
-
-## **Notes**
-
-* Exclude `build/`, `install/`, `log/` folders when pushing to GitHub.
-* The perception and PF modules are modular and can be launched independently.
-* For large DEMs, use external storage or git-lfs.
-
----
